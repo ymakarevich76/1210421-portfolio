@@ -1,2 +1,29 @@
-.title {
+.title-1 {
+  font-family: $ff-secondary;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 50px;
+  color: $c-main;
+  position: relative;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 2px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    background-color: $c-accent;
+  }
+}
+
+.title-2 {
+  font-family: $ff-secondary;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 39px;
+  color: $c-main;
 }

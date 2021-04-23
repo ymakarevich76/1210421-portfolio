@@ -3,9 +3,13 @@ body {
   flex-direction: column;
   min-width: 320px;
   min-height: 100vh;
+  background-color: $c-secondary;
 
-  font-size: $fz-main;
   font-family: $ff-main;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $fz-main;
+  line-height: 29px;
   color: $c-main;
   // overflow-x: hidden;
 }

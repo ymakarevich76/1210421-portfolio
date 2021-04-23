@@ -1,2 +1,12 @@
 .btn {
+  min-width: 187px;
+  padding: 13px 0;
+  border: 2px solid $c-link;
+  font-family: $ff-secondary;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: $c-link;
+  text-align: center;
 }

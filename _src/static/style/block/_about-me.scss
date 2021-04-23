@@ -1,0 +1,48 @@
+.about-me {
+  padding-top: 80px;
+  margin-bottom: 100px;
+}
+
+.about-me__photo {
+  margin-right: 75px;
+}
+
+.about-me__container {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me__desc {
+  padding-top: 52px;
+}
+
+.about-me__title {
+  margin-bottom: 70px;
+}
+
+.about-me__list {
+  max-width: 654px;
+}
+
+.about-me__item {
+  padding-bottom: 20px;
+  padding-left: 32px;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 32%;
+    left: 0;
+    width: 20px;
+    height: 1px;
+    background-color: $c-black;
+  }
+
+  &:nth-child(2) {
+    &::after {
+      top: 20%;
+    }
+  }
+}
