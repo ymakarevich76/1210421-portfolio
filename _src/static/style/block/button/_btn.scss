@@ -1,4 +1,5 @@
 .btn {
+  display: inline-block;
   min-width: 187px;
   padding: 13px 0;
   border: 2px solid $c-link;
@@ -18,6 +19,7 @@
     background-color: $c-link-hover;
     border-color: $c-link-hover;
     color: $c-white;
+    text-decoration: none;
   }
 
   &:active {

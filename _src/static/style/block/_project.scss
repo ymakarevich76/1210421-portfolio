@@ -21,7 +21,7 @@
   }
 }
 
-.projects__card{
+.projects__card {
   display: flex;
   justify-content: center;
   margin-bottom: 76px;
@@ -71,6 +71,7 @@
 
 .projects__text {
   max-width: 684px;
+  min-height: 115px;
   margin-bottom: 30px;
 
   @media (max-width: $md) {
@@ -83,7 +84,7 @@
   }
 }
 
-.projects__btn {
+.projects__wrap-btn {
   @media (max-width: $md) {
     display: flex;
     justify-content: center;
