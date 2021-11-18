@@ -4,7 +4,7 @@
 
 .projects__title {
   text-align: center;
-  margin-bottom: 107px;
+  margin-bottom: 67px;
 
   @media (max-width: $md) {
     margin-bottom: 75px;
@@ -21,6 +21,10 @@
   }
 }
 
+.projects__desc-text {
+  margin-bottom: 60px;
+}
+
 .projects__card {
   display: flex;
   justify-content: center;
@@ -34,8 +38,13 @@
   }
 }
 
+.projects__desc {
+  width: 100%;
+}
+
 .projects__photo {
-  margin-right: 150px;
+  margin-right: 100px;
+    flex-shrink: 0;
   position: relative;
 
   @media (max-width: $md) {
@@ -70,13 +79,13 @@
 }
 
 .projects__text {
-  min-width: 684px;
-  min-height: 115px;
+  min-height: 100px;
   margin-bottom: 30px;
 
   @media (max-width: $md) {
    max-width: 100%;
    padding-left: 17px;
+   text-align: center;
   }
 
   @media (max-width: $sm) {
