@@ -51,6 +51,12 @@
     margin-right: 0;
     margin-bottom: 58px;
   }
+
+  img {
+    min-height: 234px;
+    object-fit: cover;
+    object-position: left;
+  }
 }
 
 .projects__photo-img {
@@ -59,6 +65,11 @@
   right: -19px;
   box-shadow: 0 -10px 0 0 $c-grey,
               -10px -10px 0 0 $c-grey;
+
+  @media (max-width: $md) {
+    bottom: -40px;
+    right: 0px;
+  }
 }
 
 .projects__name-1 {
